@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-md-5">
+       <app-financiers-list (postData) = "onAddPost($event)"></app-financiers-list>
+    </div>
+    <div class="col-md-7">
+        <router-outlet></router-outlet>
+    </div>
+    <div class="row">
+      <H4 >Value from child is :  {{InputData}}</H4>
+    </div>
+</div>
